@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina personal(fotografía).</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="icono/icono.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Blog Fotografico</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://ludwinkeller.blogspot.com/">blogger</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 contacto
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://www.instagram.com/ludwinkeller/">instagram</a></li>
+                    <li><a class="dropdown-item" href="https://www.facebook.com/ludwinzet.kellerzarate.7?locale=es_LA">facebook</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="correo.html">correo</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+               
+              </li>
+            </ul>
+            
+            
+          </div>
+        </div>
+      </nav>
+
+    <div id="container">
+        <header class="border head">
+            <div id="my-div"></div> 
+        </header>
+        <main class="border main">
+       
+        <h1> acerca de mi </h1>
+        <p>La fotografía en blanco y negro siempre ha sido
+             mi lenguaje visual favorito. A través de la 
+             simplicidad de la escala de grises, encuentro 
+             una manera de explorar las emociones más profu
+             ndas y los detalles que muchas veces pasan des
+             apercibidos en el caos del color. Mis imágenes
+              buscan captar lo esencial, lo que queda cuando
+               eliminamos todo lo superficial: la textura, 
+               la forma y la luz. Cada fotografía que ves
+                aquí es una invitación a detenerse un momento
+                 y mirar más allá de lo obvio.
+
+            Me especializo en tres temas clave: la religión
+            , el cuerpo humano y el simbolismo. Cada uno de 
+            estos temas me permite abordar las preguntas 
+            fundamentales de la existencia, la espiritualidad 
+            y la naturaleza humana. En mis fotografías de cuerpos
+            , trato de capturar la vulnerabilidad, la fuerza y 
+            la belleza única de cada ser. Las imágenes religiosas,
+             por otro lado, exploran el misticismo, la fe y la devoción
+              en sus formas más puras. Y en cuanto al simbolismo,
+               me fascina jugar con imágenes que sugieren más de 
+               lo que muestran, creando metáforas visuales que invitan a la reflexión.
+            
+            A lo largo de mi trabajo, intento 
+            que mis fotos no sean solo una representación
+             visual, sino una experiencia emocional. Creo que el arte 
+             tiene el poder de transformar la manera en que percibimos
+              el mundo, y espero que al ver mis fotografías, sientas algo
+               similar: un momento de pausa, una conexión con algo más grande o, 
+               quizás, una nueva perspectiva sobre lo que ya conoces.</p>
+           
+            
+        </main>
+        <aside class="border lado">
+            <p>SECCIONES</p>
+            <img src="imagen/FOTO.png" alt="centered image" id="FOTO" width="120" height="120" style="display: block; margin: 0 auto;">
+            <nav>
+              
+                <ol>
+                   
+                    <li></li><a style="color: beige;" href="espiritu.html">espiritu</a></li>
+                    <li></li><a style="color: beige;" href="cuerpo.html">cuerpo</a></li>
+                    <li></li><a style="color: beige;" href="oscuridad.html">oscuridad</a></li>
+                </ol>
+            </nav>
+
+
+        </aside>
+        <footer class="border pie">
+            <div class="d-flex flex-wrap justify-content-between align-items-center py-1 my-2 border-top">
+                <p class="col-md-4 mb-0 text-body-secondary">&copy; 2024 Company, Inc</p>
+        
+                <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-1 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <svg class="bi me-2" width="30" height="20"><use xlink:href="#bootstrap"/></svg>
+                </a>
+        
+                <ul class="nav col-md-4 justify-content-end">
+                    <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">inicio</a></li>
+                    <li class="nav-item"><a href="acerca.html" class="nav-link px-2 text-body-secondary">acerca</a></li>
+                </ul>
+            </div>
+        </footer>
+    
+
+    </div>
+<script src="js/vivus.js"></script>
+<script>
+    new Vivus('my-div', {duration: 200, type: 'delayed', file: 'imagen/cerebro.svg'  },);
+    
+</script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+    ScrollReveal().reveal('.head', { delay: 250, easing: 'ease-in'});
+    ScrollReveal().reveal('.main', { delay: 500, scale: 0.00});
+    ScrollReveal().reveal('.lado', { delay: 400, rotate: {x: 20, z: 20},});
+    ScrollReveal().reveal('.pie', { delay: 1000, distance: '150%', origin: 'bottom' });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+ crossorigin="anonymous"></script>
+</body>
+</html>

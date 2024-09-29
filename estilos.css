@@ -165,3 +165,26 @@ footer.pie svg {
 .borde{
     border-radius: 4px 8px 8px 4px ;
 }
+
+.carousel-container {
+  max-width: 800px; /* Cambia este valor según el tamaño que prefieras */
+  margin: 0 auto;   /* Centra horizontalmente */
+}
+
+.carousel-item {
+  height: 500px; /* Altura fija para los elementos del carrusel */
+  overflow: hidden; /* Ocultar cualquier contenido que exceda la altura */
+}
+
+.carousel-item img {
+  width: 100%;      /* Las imágenes ocuparán el 100% del ancho del carrusel */
+  height: auto;     /* Mantener la proporción original de las imágenes */
+  max-height: 100%; /* Limitar la altura máxima al 100% del contenedor */
+  object-fit: cover; /* Asegurarse de que la imagen cubra el área del contenedor */
+}
+/* La imagen en el modal ocupará el máximo ancho o alto disponible sin deformarse */
+#modalImage {
+  max-width: 100%;
+  max-height: 100vh; /* Limitar la altura al 100% del viewport */
+  object-fit: contain; /* Mantener la proporción sin deformar */
+}
